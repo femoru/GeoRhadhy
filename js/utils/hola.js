@@ -31,7 +31,7 @@ function success(position) {
             + '<br>Longitud ' + longitude + '&deg;'
             + '<br>Altitud ' + altitude + '&deg;'
             + '<br>heading ' + heading + '&deg;'
-            + '<br>speed ' + longitude + '&deg;'
+            + '<br>speed ' + speed + '&deg;'
             + '<br>Watch is ' + watch + '</p>');
 }
 
