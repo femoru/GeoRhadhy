@@ -1,0 +1,23 @@
+{
+	"name":"Firefox os",
+	"description":"Esta es mi primera aplicacion",
+	"launch_path":"/index.html",
+	"icons":{
+		"128":"icon128.png",
+		"64":"icon64.png"
+	},
+	"developer":{ 
+		"name":"Felipe Moctezuma",
+		"url":"http://geekalt42.net"
+		},
+	"default_locale":"en",
+	"type": "privileged",
+	"permissions": {
+		"geolocation": {
+			"description" : "Used to locate me"
+		},
+                "desktop-notification":{
+                
+                }
+        }
+}
