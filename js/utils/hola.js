@@ -42,5 +42,5 @@ function error(error) {
 }
 
 function notificar() {
-    navigator.mozNotification.createNotification('Titulo', 'Comprobando Notificaciones FOS').show();
+    navigator.mozNotification.createNotification('Titulo', 'Comprobando FOS Notificaciones ').show();
 }
