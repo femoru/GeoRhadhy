@@ -22,6 +22,7 @@ var watch, geo_options = {
     timeout: 27000
 };
 function success(position) {
+    console.log(position);
     var altitude = position.coords.altitude;
     var heading = position.coords.heading;
     var speed = position.coords.speed;
